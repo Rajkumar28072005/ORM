@@ -39,10 +39,11 @@ class Book_DBAdmin(admin.ModelAdmin):
 ```
 
 ## admin.py
+```
 from django.contrib import admin
 from .models import Book_DB,Book_DBAdmin
 admin.site.register(Book_DB,Book_DBAdmin)
-
+```
 ## OUTPUT
 
 ![image](https://github.com/Rajkumar28072005/ORM/assets/144980101/c1d477fd-963c-4d98-b83f-d7a952b7a47a)
